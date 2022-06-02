@@ -1,0 +1,15 @@
+int main()
+{
+    int erick;
+    
+    printf("insira o valor:");
+    scanf("%d", &erick);
+    if(erick%2 == 0){
+        printf("\no valor %d e par", erick);
+    
+    }else{ 
+        printf("\no valor %d e impar", erick);
+    }
+    return 0;
+
+}
