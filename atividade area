@@ -1,0 +1,12 @@
+int main()
+{
+   int c1, a2, r;
+   printf("insira o valor da base:");
+   scanf("%d", &c1);
+   
+   printf("insira o valor da altura:");
+   scanf("%d", &a2);
+   r = c1 * a2;
+   printf("area do retangulo= %d\n", r);
+    return 0;
+}
