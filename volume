@@ -1,0 +1,13 @@
+int main()
+{
+   int c1, a2, d3, r;
+   printf("insira o valor do comprimento:");
+   scanf("%d", &c1);
+   printf("insira o valor da altura:");
+   scanf("%d", &a2);
+   printf("insira o valor da largura:");
+   scanf("%d", &d3);
+   r = c1 * a2 * d3;
+   printf("area do objeto= %d\n",r);
+    return 0;
+}
