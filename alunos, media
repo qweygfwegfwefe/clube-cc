@@ -1,0 +1,79 @@
+int main()
+{
+    float aluno1, aluno1nota2, aluno2, aluno2nota2, aluno3, aluno3nota2,r, b, c, m1, m2, m3;
+    printf("nota 1 do aluno1:");
+    
+    scanf("%f",&aluno1);
+    
+    printf("nota2 do aluno1:");
+    
+    scanf("%f",&aluno1nota2);
+    
+    
+    printf("nota 1 do aluno2:");
+    
+    scanf("%f",&aluno2);
+    
+    printf("nota2 do aluno2:");
+    
+    scanf("%f",&aluno2nota2);
+    
+    
+    printf("nota 1 do aluno3:");
+    
+    scanf("%f",&aluno3);
+    
+    printf("nota2 do aluno3:");
+    
+    scanf("%f",&aluno3nota2);
+    
+    r= aluno1 + aluno1nota2;
+    b= aluno2 + aluno2nota2;
+    c= aluno3 + aluno3nota2;
+    
+    m1 = r;
+    m2 = b;
+    m3 = c;
+    
+   printf("nota1= %.2f\n",m1);
+   printf("nota2= %.2f\n",m2);
+   printf("nota3= %.2f\n",m3);
+
+   if (m1 > m2 && m1 > m3 && m2 > m3)
+   {
+     printf("\n1° lugar = primeiro aluno com media %.2f", m1);
+     printf("\n2° lugar = segundo aluno com media %.2f", m2);
+     printf("\n3° lugar = terceiro aluno com media %.2f\n", m3);
+   }
+   else if (m2 > m1 && m2 > m3 && m1 > m3)
+   {
+     printf("\n1° lugar = segundo aluno com media %.2f", m2);
+     printf("\n2° lugar = primeiro aluno com media %.2f", m1);
+     printf("\n3° lugar = terceiro aluno com media %.2f\n", m3);  
+   }
+   else if (m1 > m2 && m1 > m3 && m3 > m2)
+   {
+     printf("\n1° lugar = primeiro aluno com media %.2f", m1);
+     printf("\n2° lugar = terceiro  aluno com media %.2f\n", m3);
+     printf("\n3° lugar = segundo aluno com media %.2f", m2);  
+   }
+   else  if (m2 > m1 && m2 > m3 && m3 > m1)
+   {
+     printf("\n1° lugar = segundo aluno com media %.2f", m2);
+     printf("\n2° lugar = terceiro  aluno com media %.2f\n", m3);
+     printf("\n3° lugar = primeiro aluno com media %.2f", m1);  
+   }
+   else if (m3 > m2 && m2 > m1 && m3 > m1 )
+   {
+     printf("\n1° lugar = terceiro aluno com media %.2f", m3);
+     printf("\n2° lugar = segundo aluno com media %.2f", m2);
+     printf("\n3° lugar = primeiro aluno com media %.2f\n", m1);  
+   }
+   else if (m3> m2 && m1 > m2 && m3 > m1)
+   {
+   printf("\n1° lugar = terceiro aluno com media %.2f", m3);
+   printf("\n2° lugar = primeiro  aluno com media %.2f\n", m1);
+   printf("\n3° lugar = segundo aluno com media %.2f", m2);  
+   }
+   return 0;
+  }
