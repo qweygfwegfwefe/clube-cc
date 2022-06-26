@@ -1,0 +1,26 @@
+int main()
+{
+
+    float va1, va2;
+
+    printf("primeiro valor:");
+    scanf("%f", &va1);
+    
+    printf("segundo valor");
+    scanf("%f", &va2);
+
+    if (va1 > va2 && va2 < va1)
+   {
+    printf("\n valor mais alto = valo1  %.2f",va1);
+    printf("\n valor mais baixo = valor2 %.2f\n", va2);
+  
+   }
+   else if(va2 > va1 && va1 < va2)
+   {
+   
+    printf("\n valor mais alto = valor2 %.2f", va2);
+    printf("\n valor mais baixo = valor2 %.2f\n", va1);
+  
+   }
+    return 0;
+   }
